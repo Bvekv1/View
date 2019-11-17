@@ -9,12 +9,15 @@
         android:id="@+id/etFirstNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="First Number" />
+        android:hint="First Number"
+        android:layout_margin="25dp"
+        />
 
     <EditText
         android:id="@+id/etSecondNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="25dp"
         android:hint="Second Number" />
 
     <Button
@@ -22,5 +25,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Calculate" />
+        android:text="Add" />
 </LinearLayout>

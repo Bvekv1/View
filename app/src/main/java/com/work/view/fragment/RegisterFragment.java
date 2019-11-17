@@ -53,7 +53,7 @@ public class RegisterFragment extends Fragment {
 
                 if (!TextUtils.isEmpty(username) && !TextUtils.isEmpty(password) && !TextUtils.isEmpty(cPassword)){
                     if (!password.equals(cPassword)){
-                        etConfirmPassword.setError("Password does not match");
+                        etConfirmPassword.setError("Password must match");
                     } else {
 
                         Users users = new Users();
@@ -71,11 +71,11 @@ public class RegisterFragment extends Fragment {
                     }
                 } else {
                     if (TextUtils.isEmpty(username)){
-                        etRegisterUsername.setError("Please enter User Name");
+                        etRegisterUsername.setError("Enter User Name");
                     } if (TextUtils.isEmpty(password)){
-                        etRegisterPassword.setError("Please enter  Password");
+                        etRegisterPassword.setError("Enter Password");
                     } if (TextUtils.isEmpty(cPassword)){
-                        etConfirmPassword.setError("Confirm password");
+                        etConfirmPassword.setError("Re-Enter password");
                     }
                 }
             }

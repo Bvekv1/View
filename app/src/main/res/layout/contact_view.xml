@@ -13,8 +13,8 @@
         android:layout_width="114dp"
         android:layout_height="149dp"
         android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
+
         android:src="@drawable/noimage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
